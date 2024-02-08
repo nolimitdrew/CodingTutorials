@@ -4,9 +4,13 @@ def sum(a, b):
 
 def main():
     # Variable declaration and initialization
-    num1 = 10
-    num2 = 5
+    num1 = 0
+    num2 = 0
     result = 0
+
+    # User input
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
 
     # Performing the addition operation
     result = sum(num1, num2)

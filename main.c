@@ -1,15 +1,22 @@
 #include <stdio.h>
 
 // Function to calculate the sum of two numbers
-int sum(int a, int b) {
+int sum(int a, int b) 
+{
     return a + b;
 }
 
-int main() {
-    // Variable declaration and initialization
-    int num1 = 10;
-    int num2 = 5;
-    int result;
+int main() 
+{
+    // Variable declaration
+    int num1, num2, result;
+
+    // User input
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
 
     // Performing the addition operation
     result = sum(num1, num2);

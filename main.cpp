@@ -1,15 +1,22 @@
 #include <iostream>
 
 // Function to calculate the sum of two numbers
-int sum(int a, int b) {
+int sum(int a, int b) 
+{
     return a + b;
 }
 
-int main() {
-    // Variable declaration and initialization
-    int num1 = 10;
-    int num2 = 5;
-    int result;
+int main() 
+{
+    // Variable declaration
+    int num1, num2, result;
+
+    // User input
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
 
     // Performing the addition operation
     result = sum(num1, num2);
