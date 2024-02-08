@@ -18,14 +18,14 @@ int main() {
     std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
 
     // Tips for beginners:
-    // 1. Use meaningful variable names to improve code readability.
-    // 2. Initialize variables when declaring them to avoid using uninitialized values.
-    // 3. Comment your code to explain its purpose and make it easier to understand.
+    // 1. Use meaningful variable names: Choose descriptive names that reflect the purpose of the variable to improve code readability.
+    // 2. Initialize variables when declaring them: Always initialize variables when declaring them to avoid using uninitialized values, which can lead to bugs.
+    // 3. Comment your code: Use comments to explain the purpose of your code and provide additional context for better understanding.
 
     // Good coding practices:
-    // 1. Use appropriate indentation for better code organization.
-    // 2. Follow a consistent naming convention (e.g., camelCase or snake_case) for variables and functions.
-    // 3. Break down complex tasks into smaller functions to improve code modularity and reusability.
+    // 1. Use appropriate indentation: Indent your code consistently to improve readability and maintain a clear code structure.
+    // 2. Follow a consistent naming convention: Choose a naming convention for variables and functions (e.g., camelCase or snake_case) and stick to it throughout your codebase.
+    // 3. Break down complex tasks into smaller functions: Divide complex tasks into smaller, reusable functions to improve code modularity, readability, and reusability.
 
     return 0;
 }

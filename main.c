@@ -18,14 +18,14 @@ int main() {
     printf("The sum of %d and %d is: %d\n", num1, num2, result);
 
     // Tips for beginners:
-    // 1. Use meaningful variable names to improve code readability.
-    // 2. Initialize variables when declaring them to avoid using uninitialized values.
-    // 3. Comment your code to explain its purpose and make it easier to understand.
+    // 1. Understand data types: Familiarize yourself with different data types in C, such as int, float, and char, and use them appropriately to store different kinds of values.
+    // 2. Memory management: Be mindful of memory allocation and deallocation using functions like malloc and free to avoid memory leaks.
+    // 3. Use comments effectively: Comment your code to provide explanations, especially for complex logic or non-obvious code sections.
 
     // Good coding practices:
-    // 1. Use appropriate indentation for better code organization.
-    // 2. Follow a consistent naming convention (e.g., camelCase or snake_case) for variables and functions.
-    // 3. Break down complex tasks into smaller functions to improve code modularity and reusability.
-
+    // 1. Follow a consistent coding style: Maintain a consistent coding style, such as indentation, brace placement, and naming conventions, to enhance code readability and maintainability.
+    // 2. Avoid global variables: Minimize the use of global variables as they can make code harder to understand and maintain. Instead, encapsulate data within functions or structures.
+    // 3. Use appropriate error handling: Check for errors and handle them gracefully using techniques like return codes, error codes, or exceptions.
+    
     return 0;
 }
