@@ -1,2 +1,2 @@
 # CodingTutorials
-The purpose of this repository is to include tutorial/template programs that will demonstrate how to create main files, generic coding computation, and proper coding practices all in a variety of languages including : C++, C, Python, and Java.
+The purpose of this repository is to include tutorial/template programs that will demonstrate how to these files provide a similar structure for each language, including a function to calculate the sum of two numbers, a main function that initializes variables, performs an addition operation, and prints the result. Each file also includes tips for beginners and good coding practices specific to the language. The following languages included are : C++, C, Python, and Java.
